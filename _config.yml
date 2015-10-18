@@ -3,6 +3,7 @@ title: Jonathon Arnold
 email: jonathonarnold@me.com
 description: Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.
 url: "http://jon-arnold.github.io/jon-arnold/" # the base hostname & protocol for your site
+baseurl: "/jon-arnold"
 twitter_username: jonarnold
 github_username:  jon-arnold
 
