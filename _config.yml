@@ -1,8 +1,7 @@
 # Site settings
 title: Jonathon Arnold
 email: jonathonarnold@me.com
-description: 
-baseurl: "/jon-arnold" # the subpath of your site, e.g. /blog/
+description: Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.
 url: "http://jon-arnold.github.io/jon-arnold/" # the base hostname & protocol for your site
 twitter_username: jonarnold
 github_username:  jon-arnold
