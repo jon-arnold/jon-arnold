@@ -1,0 +1,14 @@
+# Site settings
+title: Jonathon Arnold
+email: jonathonarnold@me.com
+description: 
+baseurl: "/jon-arnold" # the subpath of your site, e.g. /blog/
+url: "http://jonathonarnold.com" # the base hostname & protocol for your site
+twitter_username: jonarnold
+github_username:  jon-arnold
+
+# Build settings
+markdown: kramdown
+paginate: 5
+permalink: pretty
+highlighter: pygments
