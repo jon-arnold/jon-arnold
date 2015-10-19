@@ -2,33 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jonathon Arnold</title>
-    <description></description>
+    <description>Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.</description>
     <link>http://jonathonarnold.com/</link>
     <atom:link href="http://jonathonarnold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Oct 2015 08:40:17 -0500</pubDate>
-    <lastBuildDate>Sun, 18 Oct 2015 08:40:17 -0500</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2015 10:31:48 -0500</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2015 10:31:48 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>A New Blog!</title>
-        <description>&lt;h1 id=&quot;my-new-blog&quot;&gt;My New Blog&lt;/h1&gt;
+        <title>A Non-Profit Discovery Process</title>
+        <description>&lt;p&gt;I love non-profits. Nashville is full of amazing people, doing unbelievable things to help those around them and the world at large. These people are vision minded, with a passion and focus to do something meaningful.&lt;/p&gt;
 
-&lt;h2 id=&quot;blah-blah&quot;&gt;blah blah&lt;/h2&gt;
+&lt;p&gt;Time and again these same people struggle to brand and market themselves and reach the next level with their efforts. The goal here is simple: better equip, train and support these non-profits to better focus on accomplishing their mission.&lt;/p&gt;
 
-&lt;h3 id=&quot;lorem-ipsum&quot;&gt;lorem ipsum&lt;/h3&gt;
+&lt;h2 id=&quot;finding-the-problems&quot;&gt;Finding the Problems&lt;/h2&gt;
+
+&lt;p&gt;Every engagement begins with a simple discovery plan to identify capacity needs, efficacy measurements and develop marketing solutions for non-profits. I follow a modified version of the Business Model Generation &lt;a href=&quot;https://leanstack.com/LeanCanvas.pdf&quot;&gt;Lean Canvas&lt;/a&gt;, a revolutionary approach to building a business.&lt;/p&gt;
+
+&lt;h3 id=&quot;heres-the-non-profit-canvashttpclcomenerdwithmey6e9&quot;&gt;Here’s the &lt;a href=&quot;http://cl.comenerdwith.me/Y6E9&quot;&gt;Non-Profit Canvas&lt;/a&gt;.&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;http://cl.comenerdwith.me/Y621/Screen%20Shot%202014-10-17%20at%208.23.02%20AM.png&quot; alt=&quot;Non-Profit Canvas&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Here’s a thing&lt;/li&gt;
-  &lt;li&gt;Again&lt;/li&gt;
-  &lt;li&gt;one more…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Problem&lt;/strong&gt;: What is the unique problem their non-profit is addressing? List 1-3 key things.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Solution&lt;/strong&gt;: How are they solving it? Try to stay high level with their main mission, not individual tactics.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Unique Value&lt;/strong&gt;: How are they doing it better than anyone else? What’s their unfair advantage?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Donors&lt;/strong&gt;: What tools and tactics are they using to engage with donors? Do they offer recurring or sponsorship donations?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Volunteers&lt;/strong&gt;: What tools and tactics are they using to engage with volunteers?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Campaigns&lt;/strong&gt;: What are their campaigns focused around, how many are there, and how successful are they?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metrics&lt;/strong&gt;: How can we measure success on their solution, donations, volunteerism and campaigns?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Funding&lt;/strong&gt;: What external funding, grants or foundations are they receiving support from? Do they sell products or services that support the organization?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Expenses&lt;/strong&gt;: What are their main operational or capital expenses? Are they operating at a loss?&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;This allows us to unpack all operational and marketing aspects of a non-profit organization in order to identify holes or areas of improvement. This should help us understand the &lt;strong&gt;what&lt;/strong&gt;, the &lt;strong&gt;who&lt;/strong&gt; and most importantly, the &lt;strong&gt;why&lt;/strong&gt; of a non-profit.&lt;/p&gt;
+
+&lt;p&gt;This canvas quickly lays out the value, services and revenue sources (and expenses) for an organization. We spend time with a non-profit identifying their core mission, donation/income sources, volunteer opportunities, and an overview of where their expenses come from.&lt;/p&gt;
+
+&lt;h2 id=&quot;finding-the-solution&quot;&gt;Finding the Solution&lt;/h2&gt;
+
+&lt;p&gt;Put this on a whiteboard or in front of the non-profit during a casual meeting. Use this as a simple rubric for brainstorming, laying out needs, and identifying their current model. You’ll identify holes — mostly financial gaps, unfortunately — that can be filled. Normally when this canvas is filled out, at least 2-3 major opportunities present themselves really clearly.&lt;/p&gt;
+
+&lt;h5 id=&quot;the-common-issues-are&quot;&gt;The common issues are:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lack of recurring donations&lt;/li&gt;
+  &lt;li&gt;Lack of attention/volunteerism&lt;/li&gt;
+  &lt;li&gt;Lack of marketing automation tools and constituent relationship management (CRM) software&lt;/li&gt;
+  &lt;li&gt;Operating at a loss(!)&lt;/li&gt;
+  &lt;li&gt;They don’t know the right “ask” to put in front of their audience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;every-non-profit-needs-to&quot;&gt;Every non-profit needs to…&lt;/h5&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Inspire&lt;/strong&gt; with their message.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Educate&lt;/strong&gt; others about their cause.&lt;/li&gt;
+  &lt;li&gt;Encourage others to &lt;strong&gt;give&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Explain how others can &lt;strong&gt;act&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Every organization’s mission and message should touch on those points. Their calls to action should be specific, actionable and measurable. Not just “Support our cause!” but “By giving $15 today, you’ll help us educate 3 kids in need this year.”&lt;/p&gt;
+
+&lt;h4 id=&quot;some-deliverables&quot;&gt;Some Deliverables…&lt;/h4&gt;
+
+&lt;p&gt;Based upon the discovery process, there are usually several opportunities to engage with an audience. Many are operational, many are fundraising specific, but all touch on the need for better audience engagement.&lt;/p&gt;
+
+&lt;p&gt;Organizations need a viral loop to find the right audience members and engage with them throughout a relationship life cycle. A possible plan to implement change follows four steps, called &lt;strong&gt;the Four C’s&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;h5 id=&quot;curate&quot;&gt;Curate.&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;By finding the right audience, we know our time is being spent effectively.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Market research&lt;/li&gt;
+  &lt;li&gt;Data mining and analytics&lt;/li&gt;
+  &lt;li&gt;Site monitoring and conversion optimization&lt;/li&gt;
+  &lt;li&gt;Social and content strategy audit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;connect&quot;&gt;Connect.&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;Once we’ve chosen our targets, we reach out via a variety of tools (ranging from a wide online campaign to an individual development touch). During this stage it’s appropriate to ask for some level of engagement, be it a donation or just to learn more about the organization.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Email marketing&lt;/li&gt;
+  &lt;li&gt;Social media&lt;/li&gt;
+  &lt;li&gt;Video content&lt;/li&gt;
+  &lt;li&gt;Collateral, mailers and pamphlets&lt;/li&gt;
+  &lt;li&gt;Presentations and event marketing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cultivate&quot;&gt;Cultivate.&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;We’ve already asked our user base to engage, but here’s the time when we can circle back and make it count.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CRM / drip marketing&lt;/li&gt;
+  &lt;li&gt;Content marketing&lt;/li&gt;
+  &lt;li&gt;Social media engagement&lt;/li&gt;
+  &lt;li&gt;Followup communication / marketing automation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;convert&quot;&gt;Convert.&lt;/h5&gt;
+&lt;p&gt;&lt;em&gt;At this point, we’ve engaged a variety of audience types in a number of ways. We’re working on narrowing the funnel for a non-profit—persuading our audiences to give in a way that just makes sense to them.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Individual donor asks / visits&lt;/li&gt;
+  &lt;li&gt;CRM / drip marketing second phase&lt;/li&gt;
+  &lt;li&gt;Donation form optimization&lt;/li&gt;
+  &lt;li&gt;Online campaigns &amp;amp; landing pages&lt;/li&gt;
+&lt;/ul&gt;
+
 </description>
-        <pubDate>Sat, 17 Oct 2015 08:54:15 -0500</pubDate>
-        <link>http://jonathonarnold.com/general/2015/10/17/Hello-World/</link>
-        <guid isPermaLink="true">http://jonathonarnold.com/general/2015/10/17/Hello-World/</guid>
+        <pubDate>Wed, 15 Apr 2015 06:15:30 -0500</pubDate>
+        <link>http://jonathonarnold.com/non-profit/2015/04/15/Non-Profit-Discovery/</link>
+        <guid isPermaLink="true">http://jonathonarnold.com/non-profit/2015/04/15/Non-Profit-Discovery/</guid>
         
         
-        <category>general</category>
+        <category>non-profit</category>
         
       </item>
     

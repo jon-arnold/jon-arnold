@@ -1,0 +1,36 @@
+Building a good user experience is about the designer experiencing pain.
+
+Ok, so something about how understanding the underlying problem a person is trying to solve leads to more meaningful products
+
+and the irony that in order to do that, we have to put ourselves through a lot of pain
+
+if we feel the pain and then suffer the pain of really taking time to make something special, the user feels none of it
+
+because ultimately at the core the web is an imperfect system with pointy bits all over it
+
+we have to experience that at some point, it's just a conscious choice as to whether _we_ deal with all of it or we let our users handle some too.
+
+That trade-off is ok and necessary sometimes, since a user experience is also balanced by the needs of a business.
+
+### Learning
+
+### Understanding
+
+### Empathy
+
+### Compassion
+
+### Planning
+
+### Solving
+
+### Fixing
+
+### Delivering
+
+### Iterating
+
+
+
+
+Thanks, Tim Berners Lee.
