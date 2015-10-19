@@ -16,9 +16,6 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             {% assign pages = site.pages | sort: "weight"  %}
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
-                </li>
                 {% for p in pages %}
                     {% unless p.exclude %}
                 <li>
