@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "It's Jonathon with an 'o'. But, you can call me Jon."
-header-img: "img/about-bg.png"
+header-img: "img/about-bg.jpg"
 weight: 2
 ---
 
