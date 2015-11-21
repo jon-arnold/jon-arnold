@@ -2,6 +2,7 @@
 layout: post
 title:  "A Non-Profit Discovery Process"
 date:   2015-04-15 11:15:30
+header-img: "img/contact-bg.jpg"
 categories: non-profit
 ---
 
