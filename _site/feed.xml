@@ -5,9 +5,136 @@
     <description>Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.</description>
     <link>http://jonathonarnold.com/</link>
     <atom:link href="http://jonathonarnold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Oct 2015 20:57:55 -0500</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2015 20:57:55 -0500</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2015 10:44:04 -0600</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2015 10:44:04 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Testing Your Way to a Better Idea</title>
+        <description>&lt;p&gt;In product development, we care about ideas. Ideas create products and services. They connect us to other people. They lead to changing things. When we talk about products, services, people, change, and ideas… we sometimes think about Steve Jobs. He had an uncanny knack for understanding what people would like (and thus what they’d pay for). He also knew how to improve things as technology costs decreased and market penetration increased. He embraced a philosophy of &lt;strong&gt;Better&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is an important word for me (and the Web). The work we do is never done. It can always be improved.  The same is true with an idea.&lt;/p&gt;
+
+&lt;p&gt;People love stories. They especially love stories they can relate to, or that they can empathize with. If you can understand what the story of your idea is, you can communicate it to a user and convert them to being a part of that story.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-from-listening-to-people&quot;&gt;Learning from Listening to People&lt;/h3&gt;
+
+&lt;p&gt;People are the reason we do what we do. Users. People use our software, buy our products, and sustain our businesses. If we lack empathy for our users, there’s little chance we’ll build something they’ll love. Furthermore, if we don’t listen to them, it’s hard to imagine our relationship improving. One of my favorite examples of creative listening: Lay’s Potato Chips &lt;a href=&quot;https://www.dousaflavor.com/&quot;&gt;ran a campaign&lt;/a&gt; where they reached out to their users and asked them to submit new ideas for chip flavors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://f.cl.ly/items/093y0T1k3v1N3V1k0131/Screen%20Shot%202014-03-07%20at%208.14.01%20AM.png&quot; alt=&quot;Lay&#39;s Chips Flavors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Great idea, as this stable of winners proves. These three are all viable products and their customer base told them so. Letting your users show you the way is ALWAYS a good idea, even if you get some silly suggestions, too:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://cl.comenerdwith.me/UITF/Screen%20Shot%202014-03-07%20at%208.15.25%20AM.png&quot; alt=&quot;Lay&#39;s Chips Joke Flavors&quot; /&gt;
+&lt;em&gt;“Frog?” is my personal favorite.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is still good news - users making these funny posts made a huge splash on social media, drawing more attention to the campaign. Now, I’m not sure what tools Lays used to manage this campaign but I want to walk you through a scenario of tools you might use when launching a new product. The following process combines a lot of different methodologies&lt;/p&gt;
+
+&lt;h3 id=&quot;identifying-users&quot;&gt;Identifying Users&lt;/h3&gt;
+
+&lt;p&gt;If you’re Lay’s, you’ve got a massive captive audience and advertising budget to connect with your audience. What if you’re brand new? You need ways to cheaply and successfully acquire an audience to start experimenting on. These users need to be targeted appropriately and you need to know who they are.&lt;/p&gt;
+
+&lt;p&gt;Begin with a persona. Who do you &lt;strong&gt;think&lt;/strong&gt; you want to target? You can start with a rough idea of who this person is and refine over time with the steps we’ll take below.&lt;/p&gt;
+
+&lt;p&gt;Recently I’ve been using &lt;a href=&quot;http://personapp.io&quot;&gt;Personapp&lt;/a&gt; to help identify these personas. This tool is a digital version of whiteboard exercise I’ve often facilitated. This app allows you to think through a user’s needs and behaviors, their demographics, and their goals. It’s important to include &lt;em&gt;psychographics&lt;/em&gt;, too: breaking down a user’s motivations, interests, values, attitudes and choices.&lt;/p&gt;
+
+&lt;p&gt;You should use this tool to create a rough outline of who you’d like to target. This is an evolving concept and your targets will change over time.&lt;/p&gt;
+
+&lt;p&gt;Last time we talked about the importance of a verified, evolving idea. We talked about how telling a story about your idea would engage users. Then, we talked about how to brainstorm our target users. Now, we need to take those ideas and thoughts and start applying actual data to them.&lt;/p&gt;
+
+&lt;h4 id=&quot;research-through-ads&quot;&gt;Research Through Ads&lt;/h4&gt;
+
+&lt;p&gt;The first way to get started is simple: you dangle your line and see who bites. Tim Ferriss, author of the &lt;a href=&quot;http://www.fourhourworkweek.com/&quot;&gt;Four Hour Workweek&lt;/a&gt; has a killer case study on this. He took his book title—six of them, in fact—and a variety of tag lines. He setup a week long Adwords campaign, spending about $200 in total, and discovered the winning title. With a little bit of market research, he found his &lt;strong&gt;product name&lt;/strong&gt; and &lt;strong&gt;value proposition&lt;/strong&gt;. Not bad.&lt;/p&gt;
+
+&lt;p&gt;Knowing what people are interested in about your product speaks volumes. It lets you choose a name, logo and style. It lets you choose a key feature to center around. And if done right, it also helps you learn about your audience. You not only know that clicks happened, but you can learn about who clicked and start to understand who they are.&lt;/p&gt;
+
+&lt;p&gt;With Google Adwords and Facebook Insights, you can learn about who’s interested in your idea, where they’re coming from, and what makes them tick. Heck, you might even get to know &lt;em&gt;actual people&lt;/em&gt;. Crazy.&lt;/p&gt;
+
+&lt;h4 id=&quot;conversion-testing&quot;&gt;Conversion Testing&lt;/h4&gt;
+
+&lt;p&gt;Now, you’ll want to know more about these people - that’s where my favorite tool comes in. &lt;a href=&quot;http://www.optimizely.com&quot;&gt;Optimizely&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Demo time: go visit &lt;a href=&quot;http://www.optimizely.com&quot;&gt;optimizely.com&lt;/a&gt; and see how it works in their sandbox mode.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When you get a user to click on your ad, you’ll want to send them to a well converting landing page. This tool allows you to tweak, test and adjust nearly EVERYTHING on your site without the need to write any code.&lt;/p&gt;
+
+&lt;p&gt;On your amazing optimized landing page, you’ll want to capture interested users to an email list. Those folks are going to become very important to you, so make sure you’re using a tailored email solution like &lt;a href=&quot;http://www.myemma.com&quot;&gt;Emma&lt;/a&gt; or &lt;a href=&quot;http://www.mailchimp.com&quot;&gt;Mailchimp&lt;/a&gt; to speak to them in style. Here you’ll give them product news, thank them for signing up and stay in touch… infrequently.&lt;/p&gt;
+
+&lt;h4 id=&quot;surveys&quot;&gt;Surveys&lt;/h4&gt;
+
+&lt;p&gt;After you’ve grown a small email list, it’s time to engage. Reach out to them with a survey. The easiest place is still &lt;a href=&quot;http://www.surveymonkey.com&quot;&gt;SurveyMonkey&lt;/a&gt;. You can integrate this with your Mailchimp account and do some really simple, powerful things.&lt;/p&gt;
+
+&lt;p&gt;This is a place to further quantify your user. You might know about them from our ad targeting, but you don’t know their specific choices and habits yet.&lt;/p&gt;
+
+&lt;p&gt;Ask questions about their buying decisions. Why did they find your product interesting? What would THEY like to see the product do? How much would they be willing to pay?&lt;/p&gt;
+
+&lt;p&gt;Most importantly, however – you want to ask them for more of their time. Can you speak to them about the product? We’ll get to that more in a second, but this survey should help you identify the main features you want to focus on for your product.&lt;/p&gt;
+
+&lt;p&gt;Surveys are powerful tools, but they often rely on what a person wants to say versus their actual behavior. &lt;a href=&quot;http://blog.ted.com/2006/09/20/malcolm_gladwel_1/&quot;&gt;Malcolm Gladwell has some great examples&lt;/a&gt; on how people speak about spaghetti sauce and coffee: ultimately, that what people say is sometimes not what they truly believe.&lt;/p&gt;
+
+&lt;p&gt;So you get what makes a user tick. You get what they want. …but is it really what they want?&lt;/p&gt;
+
+&lt;h4 id=&quot;interviews&quot;&gt;Interviews&lt;/h4&gt;
+
+&lt;p&gt;From your organized list of interested users, you can poll 3-5 in a simple interview. A 30 minute phone interview can reveal valuable insights about a user that just looking at data cannot!&lt;/p&gt;
+
+&lt;p&gt;Asking open ended interview questions allows the user to guide you through their needs and pain with a current solution. As you go down a path of thinking with the user, you can start to guide them towards an outcome.&lt;/p&gt;
+
+&lt;p&gt;To prepare for an interview, assemble a list of 5-7 questions (time will fly!) that you want to ask. I often treat these like therapy sessions: let the user take the conversation where they want it and respond.&lt;/p&gt;
+
+&lt;p&gt;I’ll typically use Skype and the Call Record plug-in to capture the recording so I can focus on taking only loose notes as we progress. &lt;strong&gt;Don’t forget&lt;/strong&gt; to tell the user you’re going to record, though!&lt;/p&gt;
+
+&lt;h4 id=&quot;prototyping&quot;&gt;Prototyping&lt;/h4&gt;
+
+&lt;p&gt;The most effective way to show a user your idea is via prototyping.&lt;/p&gt;
+
+&lt;p&gt;When we prototype, we mostly start with a whiteboard or hand drawn sketch. We use tools like &lt;a href=&quot;http://www.flinto.com&quot;&gt;Flinto&lt;/a&gt; or &lt;a href=&quot;https://popapp.in/&quot;&gt;Prototyping on Paper&lt;/a&gt; to reveal our ideas in flat, clickable prototypes. Sometimes these are sketches or actual UI. Starting with sketches or lo-fi wireframes allows us to quickly pivot to satisfy a user’s needs. We do lots of different types of exercises (mostly with notecards: ideation, cart sorting, user workflow pathing) to get a users’ ideas articulated. &lt;/p&gt;
+
+&lt;p&gt;Notecards are also sort of shaped like screens. We can draw little diagrams that look like apps and guide a user through an experience on the table in front of us. They’re also cheap, portable and easy to play with. You can tear one up when an idea turns sour; it’s cathartic, final and you haven’t wasted time writing good code for a bad idea. &lt;strong&gt;I love notecards.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we have something to work with, we quickly move into a build phase. Once we’re building, we seek constant user feedback. For prototype feedback, a few tools…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hotjar.com&quot;&gt;HotJar&lt;/a&gt; is a killer resource for these efforts. It combines heat maps, screen recording, funnels, form analytics, and surveys into one toolkit. …and it’s cheap!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://silverbackapp.com/&quot;&gt;Silverback&lt;/a&gt; is a Mac app that allows me to record a user’s screen as well as the iSight camera (meaning I can monitor their face/voice as they navigate an experience).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://userzoom.com&quot;&gt;Userzoom&lt;/a&gt; is a similar tool, but allows for remote users (meaning they don’t have to be in the room with me).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.usertesting.com/&quot;&gt;User Testing&lt;/a&gt; is a tool that asks anonymous users (so, not your ideal customer) their thoughts about an app or system.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://feedbackarmy.com/&quot;&gt;Feedback Army&lt;/a&gt; is another anonymous user tool, but it gives me 10 user responses for $20. Cheap.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http&quot;&gt;Optimizely&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Taking this user feedback allows us to start making decisions on how we build. This leads us to our &lt;strong&gt;MVP&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-minimally-viable-product&quot;&gt;The Minimally Viable Product&lt;/h4&gt;
+
+&lt;p&gt;Often times we use paper prototyping merely as a way to validate an idea or workflow internally or in usability studies. That’s just the beginning: to get close to an MVP, we’ll apply a brand style to our paper or HTML prototypes to create a UI prototype. This concept is clickable and feels like a real experience (especially with tools like Invision or Flinto). It’s perfect for user testing or even to show potential investors or partners.&lt;/p&gt;
+
+&lt;p&gt;From there, we can further validate and iterate on an idea until it’s ready to be built. We can ease our way into software development with a &lt;strong&gt;front end prototype&lt;/strong&gt;. This is the first time we’re using HTML, CSS and Javascript to express our idea, but we know that we’re building the &lt;em&gt;right&lt;/em&gt; thing. We can now test our assertions for responsive design, identify any holes in the process and create a solid pattern library for all interaction types.&lt;/p&gt;
+
+&lt;p&gt;Once we have this in place we can hand the whole piece over to our development team to create the real product. Now, it’s time to ask the key Minimally Viable Product question:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the least amount of effort I can expend on creating the most amount of value for my users?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a tough question to answer, and it’s why the previously mentioned tools (ESPECIALLY interviews) are important. The concepts and prototypes we’ve created often show the full product experience. Do you truly need all those elements and features to get your product to market?&lt;/p&gt;
+
+&lt;p&gt;You should know exactly what your users find valuable and start with only those bare requirements. Using iterative development methods, we can use our user learning to iterate and grow towards our ultimate vision. And now, a little kung fu wisdom:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s not the daily increase but daily decrease. Hack away at the unessential. – Bruce Lee&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The healthy product is the evolving product. Use your base of committed users to tell you what to do next, and don’t be afraid to pivot when you need to.&lt;/p&gt;
+
+&lt;p&gt;All the tools we’ve talked about are important, and they should be returned to frequently. This process is iterative and your target constantly moves. Ultimately, by caring about those you serve and constantly checking up on them, you’ll make a truly meaningful product.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://jonathonarnold.com/user-research/2015/06/15/testing-ideas/</link>
+        <guid isPermaLink="true">http://jonathonarnold.com/user-research/2015/06/15/testing-ideas/</guid>
+        
+        
+        <category>user-research</category>
+        
+      </item>
     
       <item>
         <title>A Non-Profit Discovery Process</title>
@@ -118,6 +245,31 @@
         <pubDate>Wed, 15 Apr 2015 06:15:30 -0500</pubDate>
         <link>http://jonathonarnold.com/non-profit/2015/04/15/Non-Profit-Discovery/</link>
         <guid isPermaLink="true">http://jonathonarnold.com/non-profit/2015/04/15/Non-Profit-Discovery/</guid>
+        
+        
+        <category>non-profit</category>
+        
+      </item>
+    
+      <item>
+        <title>The Problem with Activism</title>
+        <description>&lt;p&gt;A while back, I wrote a blog post about the current state of volunteerism (I live in Tennessee, the Volunteer state, after all) and non-profits in general.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The unfortunate truth: many of those most able to help have fallen into a restless pattern of slacktivism that is preventing real good from getting done.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We’ve got a real problem on our hands, and it hasn’t gotten better. The truth is, our split attention means split effectiveness. That’s the case in everything we do, but it hurts charitable organizations in a unique way. Today we associate ourselves with brands: affinity, lifestyle, our own meaning comes from the labels we wear and consume.&lt;/p&gt;
+
+&lt;p&gt;That doesn’t mean we’re giving back, though. Our time and money go elsewhere, and the voice we give to a cause cannot be heard.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-can-we-do&quot;&gt;What can we do?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/doing-good/the-problem-with-activism-edcc2817b311#.bkrneiwuu&quot;&gt;Read more at Medium&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jun 2013 07:15:30 -0500</pubDate>
+        <link>http://jonathonarnold.com/non-profit/2013/06/03/Problem-with-Activism/</link>
+        <guid isPermaLink="true">http://jonathonarnold.com/non-profit/2013/06/03/Problem-with-Activism/</guid>
         
         
         <category>non-profit</category>
