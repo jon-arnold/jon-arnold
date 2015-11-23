@@ -62,7 +62,7 @@ After you’ve grown a small email list, it’s time to engage. Reach out to the
 
 This is a place to further quantify your user. You might know about them from our ad targeting, but you don't know their specific choices and habits yet.
 
-Ask questions about their buying decisions. Why did they find your product interesting? What would THEY like to see the product do? How much would they be willing to pay?
+Ask questions about their potential buying decisions. Why did they find your product interesting? What would THEY like to see the product do? How much would they be willing to pay?
 
 Most importantly, however – you want to ask them for more of their time. Can you speak to them about the product? We’ll get to that more in a second, but this survey should help you identify the main features you want to focus on for your product.
 
