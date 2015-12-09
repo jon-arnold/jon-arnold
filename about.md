@@ -14,7 +14,7 @@ I’m passionate about great experiences, both in software and in physical space
 
 I work hard to collect research, insights and perspective in proven, systematic and interactive ways from both employees and customers. I'm passionate about learning, listening, and understanding people to get to the heart of a real issue and work together to create something **better**.
 
-I'm also a **Scrum Certified Product Owner (SCPO)** and I love working with product teams on building and shipping the right things for their users. I'm proudly on the [Life.io](http://life.io) team, building a behavior economics platform that's changing lives.
+I'm also a **Scrum Certified Product Owner (SCPO)** and I love working with product teams on building and shipping the right things for their users. I'm proudly serving as the SVP of Product on the [Life.io](http://life.io) team, building a behavior economics platform that's changing lives.
 
 I’ve worked with start-ups, non-profits, and Fortune 100 companies to create shared understanding, new products and features, business processes and solved problems.
 
