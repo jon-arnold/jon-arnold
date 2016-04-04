@@ -10,4 +10,4 @@ github_username:  jon-arnold
 markdown: kramdown
 paginate: 5
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
