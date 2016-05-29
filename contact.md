@@ -8,7 +8,7 @@ weight: 10
 
 ## Want to connect? Send me a message – I'll get back to you soon!
 
-<form name="sentMessage" id="contactForm" novalidate>
+<form name="sentMessage" id="contactForm" action="https://getsimpleform.com/messages?form_api_token=0ced479ddb00e70914c44cf15505cd6c" method="post" novalidate>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
