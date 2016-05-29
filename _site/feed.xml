@@ -5,9 +5,25 @@
     <description>Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.</description>
     <link>http://jonathonarnold.com/</link>
     <atom:link href="http://jonathonarnold.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 May 2016 18:12:31 -0500</pubDate>
-    <lastBuildDate>Wed, 11 May 2016 18:12:31 -0500</lastBuildDate>
+    <pubDate>Sat, 28 May 2016 19:39:22 -0500</pubDate>
+    <lastBuildDate>Sat, 28 May 2016 19:39:22 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>RailsConf 2016: Managing Growing Pains</title>
+        <description>&lt;p&gt;I had the pleasure of both attending and speaking at my first &lt;a href=&quot;http://railsconf.com/&quot;&gt;RailsConf&lt;/a&gt; this year. I gave a talk on how to orient and manage a product team when resources are tight and visions are big. Check it out here:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/7H-Cy-80ynM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 25 May 2016 07:15:30 -0500</pubDate>
+        <link>http://jonathonarnold.com/teams/2016/05/25/Managing-Growing-Pains/</link>
+        <guid isPermaLink="true">http://jonathonarnold.com/teams/2016/05/25/Managing-Growing-Pains/</guid>
+        
+        
+        <category>teams</category>
+        
+      </item>
     
       <item>
         <title>Natural and Reactive Planning</title>
