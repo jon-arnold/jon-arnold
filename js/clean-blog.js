@@ -38,7 +38,7 @@ $(function() {
                     phone: phone,
                     email: email,
                     message: message
-                dataType: "json"
+                dataType: "jsonp"
                 },
                 cache: false,
                 success: function() {
