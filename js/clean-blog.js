@@ -31,14 +31,13 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
+                dataType: "jsonp"
                 url: "https://getsimpleform.com/messages/ajax?form_api_token=0ced479ddb00e70914c44cf15505cd6c",
-                type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
-                dataType: "jsonp"
                 },
                 cache: false,
                 success: function() {
@@ -53,17 +52,6 @@ $(function() {
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
-                error: function() {
-                    // Fail message
-                    $('#success').html("<div class='alert alert-danger'>");
-                    $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                    $('#success > .alert-danger').append('</div>');
-                    //clear all fields
-                    $('#contactForm').trigger("reset");
-                },
             })
         },
         filter: function() {

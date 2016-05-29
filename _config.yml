@@ -5,6 +5,7 @@ description: Jon Arnold is a UX strategist, product manager, and workshop facili
 url: "http://jonathonarnold.com" # the base hostname & protocol for your site
 twitter_username: jonarnold
 github_username:  jon-arnold
+email: jonathonarnold@me.com
 
 # Build settings
 markdown: kramdown
