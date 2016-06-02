@@ -19,4 +19,4 @@ I'm also a **Scrum Certified Product Owner (SCPO)** and I love working with prod
 I’ve worked with start-ups, non-profits, and Fortune 100 companies to create shared understanding, new products and features, business processes and solved problems.
 
 ##### Sound like fun?
-[Drop me a line](/contact) and let's talk.
+Drop me a line and let's talk: jonathonarnold@me.com

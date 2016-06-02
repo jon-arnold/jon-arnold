@@ -15,7 +15,7 @@ I've spent a lot of time in digital agencies building exceptional teams and serv
 
 #### Enterprise / B2B
 
-I'm really fortunate to have spent time consulting with some pretty massive enterprises. I have loved finding one person (or one department) inside a massive corporation who thinks differently. These _intrapreneurs_ tend to be change agents and catalysts internally, and often need some external help to get their initiative achieved. Together we've designed consumer facing products, streamlined complex business processes, and aligned organizations around a common strategic goal. 
+I'm really fortunate to have spent time consulting with some pretty massive enterprises. I have loved finding one person (or one department) inside a massive corporation who thinks differently. These _intrapreneurs_ tend to be change agents and catalysts internally, and often need some external help to get their initiative achieved. Together we've designed consumer facing products, streamlined complex business processes, and aligned organizations around a common strategic goal.
 
 #### Startups
 
@@ -23,7 +23,7 @@ I'm currently the SVP of Product at a successful, venture-backed startup based o
 
 #### Non-Profits
 
-In 2011, I co-launched Interactive for Good, a digital consultancy for the modern NGO. We focused on non-profit strategy, online fundraising, branding and tone, and marketing campaigns. This effort got me really involved with a lot of Nashville-based and global organizations alike. 
+In 2011, I co-launched Interactive for Good, a digital consultancy for the modern NGO. We focused on non-profit strategy, online fundraising, branding and tone, and marketing campaigns. This effort got me really involved with a lot of Nashville-based and global organizations alike.
 
 
 ## Expertise
@@ -59,8 +59,8 @@ I believe user experience design is a component of product management. A well-ma
 * Design Thinking Workshops
 * Design Sprints
 
-Workshops are so much fun! They're best when everyone involved is tired at the end of the day (I often hear participants say they don't work this hard in their day job…). A good workshop can help a group of people see a problem differently. I love the sense of accomplishment a group can feel when they uncover the hidden answer that was waiting in the room all along. 
+Workshops are so much fun! They're best when everyone involved is tired at the end of the day (I often hear participants say they don't work this hard in their day job…). A good workshop can help a group of people see a problem differently. I love the sense of accomplishment a group can feel when they uncover the hidden answer that was waiting in the room all along.
 
 
 ##### Sound like fun?
-[Drop me a line](/contact) and let's talk.
+Drop me a line and let's talk: jonathonarnold@me.com
