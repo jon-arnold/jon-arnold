@@ -19,7 +19,7 @@ I'm really fortunate to have spent time consulting with some pretty massive ente
 
 #### Startups
 
-I'm currently the SVP of Product at a successful, venture-backed startup based out of Philadelphia called [Life.io](http://life.io). I'm collaborating with some amazing people to build a nimble team and a strong company. I'm focused on growing the product offering and working with enterprise clients on implementation. I'm also working on growing this team into something awesome. We embrace a combination lean and agile methodology that's focused on user input, iteration, and learning.
+I served as the SVP of Product at a successful, venture-backed startup based out of Philadelphia called [Life.io](http://life.io). I collaborated with some amazing people to build a nimble team and a strong company. It was a delight to grow the product offering and working with enterprise clients on implementation. We grew this from a team of three to a multi-discipline agile team of awesome. We embrace a combination lean and agile methodology that's focused on user input, iteration, and learning.
 
 #### Non-Profits
 
