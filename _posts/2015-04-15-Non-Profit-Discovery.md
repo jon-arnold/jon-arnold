@@ -2,7 +2,9 @@
 layout: posts
 title:  "A Non-Profit Discovery Process"
 date:   2015-04-15 11:15:30
-header-img: "img/contact-bg.jpg"
+excerpt: The goal here is simple: better equip, train and support these non-profits to better focus on accomplishing their mission.
+header:
+  overlay_image: "img/contact-bg.jpg"
 categories: non-profit
 ---
 

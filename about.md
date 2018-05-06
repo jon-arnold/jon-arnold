@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "About"
-description: "It's Jonathon with an 'o'. But, you can call me Jon."
-header-img: "img/about-bg.jpg"
+excerpt: "It's Jonathon with an 'o'. But, you can call me Jon."
+header:
+  overlay_image: "img/about-bg.jpg"
 weight: 2
 ---
 

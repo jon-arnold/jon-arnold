@@ -2,7 +2,9 @@
 layout: posts
 title:  "Useful User Stories"
 date:   2014-02-21 8:15:30
-header-img: "img/roadmap-bg.jpg"
+excerpt: User stories are the currency of our trade.
+header:
+  overlay_image: "img/roadmap-bg.jpg"
 categories: planning
 ---
 

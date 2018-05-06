@@ -2,7 +2,9 @@
 layout: posts
 title:  "The Problem with Activism"
 date:   2013-06-03 12:15:30
-header-img: "img/home-bg.jpg"
+excerpt: The unfortunate truth: many of those most able to help have fallen into a restless pattern of slacktivism that is preventing real good from getting done.
+header:
+  overlay_image: "img/home-bg.jpg"
 categories: non-profit
 ---
 

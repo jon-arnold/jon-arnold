@@ -2,7 +2,9 @@
 layout: single
 title: "Work"
 description: "Let's build better products for real people."
-header-img: "img/user-workshop-bg.jpg"
+excerpt: "Let's build better products for real people."
+header:
+  overlay_image: "img/user-workshop-bg.jpg"
 weight: 3
 ---
 

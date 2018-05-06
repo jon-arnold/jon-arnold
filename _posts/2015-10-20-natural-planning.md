@@ -2,7 +2,9 @@
 layout: posts
 title:  "Natural and Reactive Planning"
 date:   2015-10-20 12:15:30
-header-img: "img/user-workshop-bg.jpg"
+excerpt: The difference between emergent and proactive thinking.
+header:
+  overlay_image: "img/user-workshop-bg.jpg"
 categories: planning
 ---
 

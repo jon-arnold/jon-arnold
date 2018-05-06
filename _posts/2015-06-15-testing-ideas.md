@@ -2,7 +2,9 @@
 layout: posts
 title:  "Testing Your Way to a Better Idea"
 date:   2015-06-15
-header-img: "img/journey-map-bg.jpg"
+excerpt: The work we do is never done. It can always be improved.  The same is true with an idea.
+header:
+  overlay_image: "img/journey-map-bg.jpg"
 categories: user-research
 ---
 

@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/non-profit/Problem-with-Activism/</loc>
-<lastmod>2013-06-03T07:15:30-05:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/planning/pomodoro/</loc>
 <lastmod>2013-08-21T04:09:30-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/planning/user-stories/</loc>
 <lastmod>2014-02-21T02:15:30-06:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/planning/weekly-review/</loc>
-<lastmod>2014-05-03T11:45:30-05:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/non-profit/Non-Profit-Discovery/</loc>
-<lastmod>2015-04-15T06:15:30-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/user-research/testing-ideas/</loc>
@@ -41,7 +29,22 @@
 <lastmod>2018-05-01T11:15:30-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2013-06-03-Problem-with-Activism/</loc>
+<lastmod>2018-05-06T11:57:38-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2014-05-03-weekly-review/</loc>
+<lastmod>2018-05-06T11:57:38-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2015-04-15-Non-Profit-Discovery/</loc>
+<lastmod>2018-05-06T11:57:38-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

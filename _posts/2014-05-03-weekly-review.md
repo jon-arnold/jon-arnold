@@ -2,7 +2,9 @@
 layout: posts
 title:  "The Weekly Review"
 date:   2014-05-03 16:45:30
-header-img: "img/about-bg.jpg"
+excerpt: When people think about productivity, they often think about what's next to do on their task list. What can get overlooked is actually the most important part of a productivity workflow: **the weekly review**.  
+header:
+  overlay_image: "img/about-bg.jpg"
 categories: planning
 ---
 
