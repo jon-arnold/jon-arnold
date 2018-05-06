@@ -18,25 +18,25 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Jonathon Arnold">
 <meta property="og:title" content="The Dungeon Manager">
-<meta property="og:url" content="http://jonathonarnold.com/product/dungeon-manager/">
+<meta property="og:url" content="http://localhost:4000/product/dungeon-manager/">
 
 
   <meta property="og:description" content="I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium.">
 
 
 
-  <meta property="og:image" content="http://jonathonarnold.com/img/home-bg.jpg">
+  <meta property="og:image" content="http://localhost:4000/img/home-bg.jpg">
 
 
 
   <meta name="twitter:site" content="@jonarnold">
   <meta name="twitter:title" content="The Dungeon Manager">
   <meta name="twitter:description" content="I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium.">
-  <meta name="twitter:url" content="http://jonathonarnold.com/product/dungeon-manager/">
+  <meta name="twitter:url" content="http://localhost:4000/product/dungeon-manager/">
 
   
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="http://jonathonarnold.com/img/home-bg.jpg">
+    <meta name="twitter:image" content="http://localhost:4000/img/home-bg.jpg">
   
 
   
@@ -54,7 +54,7 @@
   
 
 
-<link rel="canonical" href="http://jonathonarnold.com/product/dungeon-manager/">
+<link rel="canonical" href="http://localhost:4000/product/dungeon-manager/">
 
 
 
@@ -67,7 +67,7 @@
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "Jonathon Arnold",
-      "url": "http://jonathonarnold.com",
+      "url": "http://localhost:4000",
       "sameAs": null
     }
   </script>
@@ -134,17 +134,17 @@
           
             
             <li class="masthead__menu-item">
-              <a href="http://jonathonarnold.com/about" >About</a>
+              <a href="http://localhost:4000/about" >About</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://jonathonarnold.com/work" >Work</a>
+              <a href="http://localhost:4000/work" >Work</a>
             </li>
           
             
             <li class="masthead__menu-item">
-              <a href="http://jonathonarnold.com/contact" >Contact</a>
+              <a href="http://localhost:4000/contact" >Contact</a>
             </li>
           
         </ul>
@@ -226,14 +226,6 @@
       
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Nashville, TN</span>
-        </li>
-      
-
-      
-        <li>
-          <a href="jonathonarnold.com" itemprop="url">
-            <i class="fas fa-fw fa-link" aria-hidden="true"></i> Website
-          </a>
         </li>
       
 
@@ -321,355 +313,157 @@
 
   <div class="archive">
     
-    <p>I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium. Check it out:</p>
+    <p><em>Note: This article was originally posted on <a href="https://medium.com/@jonarnold/the-dungeon-manager-84302130106a">Medium</a>. Check it out there, if you want!</em></p>
 
-<p><a href="The Dungeon Manager on Medium">https://medium.com/@jonarnold/the-dungeon-manager-84302130106a</a></p>
+<p>I love games. It’s proven that games help our psychological state, encourage social connectivity, and generally relieve stress. Much has been written about the effect of games in our lives, including some truly insightful work by game designer <a href="http://www.janemcgonigal.com">Jane McGonigal</a>.</p>
 
+<p>Games combine the powerful forces of story and play to convey emotion, entertain, and can even teach new skills. Adding game mechanics like achievement, collection, socializing and discovery gives games their unique attributes and appeal — simply called <em>gameplay</em>.</p>
 
+<p>New products apply <a href="http://gamification-research.org">gamification</a> liberally as a key stategy. Gamification is a cliché, sure, but when done well users are able to engage with powerful mechanics. Profile completeness, points and badges are just the beginning — even the <a href="https://en.wikipedia.org/wiki/Network_effect">network effect</a> has its roots in game mechanics.</p>
 
-<ul class="taxonomy__index">
-  
-  
-    <li>
-      <a href="#2018">
-        <strong>2018</strong> <span class="taxonomy__count">4</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2016">
-        <strong>2016</strong> <span class="taxonomy__count">2</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2015">
-        <strong>2015</strong> <span class="taxonomy__count">2</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2014">
-        <strong>2014</strong> <span class="taxonomy__count">1</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2013">
-        <strong>2013</strong> <span class="taxonomy__count">1</span>
-      </a>
-    </li>
-  
+<p><img src="https://cdn-images-1.medium.com/max/600/1*yv9ciBH3gNxPvJ7rUGYFqw.jpeg" alt="Dungeon Master at Work" />
+<em>The Dungeon Master holding court.</em></p>
+
+<p>Classic tabletop strategy games like Dungeons &amp; Dragons have used these same concepts for decades. A dungeon master (or game master) assembles a group and creates a living story — called a campaign — for their players to explore.</p>
+
+<p>The game master is charged with:</p>
+<ul>
+  <li>Creating a rich world that supports the campaign</li>
+  <li>Guiding the players in ways that align with their unique character skills</li>
+  <li>Obeying and interpreting the rules of the game</li>
 </ul>
 
+<p>…and also providing snacks. Overall, the game master exists to facilitate the story and achieve these goals in engaging, creative ways.</p>
 
+<h2 id="product-management-as-worldbuilding">Product Management as World Building</h2>
+<p>Product managers can apply game mechanics to the work of product development, but more importantly they can apply the goals of a game master to the work they do each day.</p>
 
-  <section id="2018" class="taxonomy__section">
-    <h2 class="archive__subtitle">2018</h2>
-    <div class="entries-list">
-      
-        
+<p>A product is a created world. It has characters, pitfalls to avoid, challenges to overcome, and a story to complete. By using these game master strategies, a product team can build amazing things and have fun while doing it.</p>
 
+<h3 id="macro-arc-microarcs">Macro Arc, Micro Arcs</h3>
 
+<p><img src="https://cdn-images-1.medium.com/max/600/1*Dhc0tW7qT5SeedUL5YsbCQ.jpeg" alt="The Adventure Zone" />
+<em>The Adventure Zone podcast has redefined tabletop storytelling in podcast form.</em></p>
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/2015-04-15-Non-Profit-Discovery/" rel="permalink">
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<p>Griffin McElroy, host of the <a href="http://www.maximumfun.org/shows/adventure-zone">The Adventure Zone podcast</a>, laid out this concept when explaining his rationale and inspiration behind their game. When he wrote their campaign, he focused solely on the overall campaign arc. He knew that the “macro-arc” of the story had to be intact in order for it to make sense. The payoff at the end meant certain key elements of the story <em>had</em> to happen, or else the game was over.</p>
 
+<p>When writing the campaign, Griffin was less concerned with the small, micro-arcs within the story. There are many of them, and there’s too many to script out or rely on in order to keep the game moving. Rather, he exposes various possible edges of these micro-arcs to his players and allows them to explore at their will.</p>
 
+<h3 id="product-vision">Product Vision</h3>
+<p>Like a game master, a product manager has to understand the vision and arc of a product. A few key questions to ask:</p>
 
+<ul>
+  <li>Where <em>must</em> the product go in the future to be successful?</li>
+  <li>What market forces (competitors, clients, etc) are at work that must be overcome?</li>
+  <li>How will it best serve key users?</li>
+  <li>How will the product change the world in six years?</li>
+  <li>Most importantly, what does the team and company unwaveringly believe in?</li>
+</ul>
 
-  4 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-      
-        
+<p>These questions should establish the guide rails the team needs when building the product. Outside of these factors (which may not change quickly or at all!), be flexible to new ideas and features of a product.</p>
 
+<h2 id="open-world">Open World</h2>
 
+<p><img src="https://cdn-images-1.medium.com/max/600/1*W6_lRC_weuc6xsJtjxlDDg.png" alt="Skyrim" />
+<em>Skyrim actually procedurally generates infinite new side quests.</em></p>
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/2014-05-03-weekly-review/" rel="permalink">
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<p>In an open world game, the playable character is presented with big objectives and lots of side quests. It’s up to the player to choose which way to go and which quests to complete or ignore.</p>
 
+<p>As a result, there may be whole components of a story that go unnoticed by players. A game master shouldn’t hold these plot points as precious, but let them go in service of the greater story being experienced by the players.</p>
 
+<p>A game master has to prepare possible paths inside the story and hold playable characters responsible for interacting with them. The players are a key variable in the storytelling process, who provide new story elements that a game master has to react to.</p>
 
+<h3 id="user-appropriation">User Appropriation</h3>
+<p>When a product gets into the hands of actual users, <a href="https://www.bcs.org/upload/pdf/ewic_hc07_sppaper7.pdf">unexpected things tend to happen</a>. Users may find a feature confusing, or they may even use it differently than it was designed. Of course, a team may release a feature that no one uses.</p>
 
-  2 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-      
-        
+<p>During these moments, a product team could choose to be hostile towards users and mock them for their misuse. They could champion the features they worked so hard on, and force a user to engage with the feature. This happens often through marketing efforts, re-routing users to certain pages and even redesigning other features so they include the underused new functionality.</p>
 
+<p>Instead, a product team should listen to what their users are saying, watch what they’re doing, and make refinements that enable the appropriated behaviors and actions. Product managers are in service of the product, which is in service to the user. Treat user feedback as gold, and <a href="https://blog.intercom.com/where-do-product-roadmaps-come-from/">incorporate it as a key component of planning the product’s future</a>.</p>
 
+<h3 id="here-bedragons">Here Be Dragons</h3>
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/2013-06-03-Problem-with-Activism/" rel="permalink">
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<p><img src="https://cdn-images-1.medium.com/max/600/1*QIBEyA9bTMwN7taGVtgnGA.jpeg" alt="Here Be Dragons Map" />
+<em>Here Be Dragons just meant “unknown” on the map, not necessarily danger.</em></p>
 
+<p>A game master knows what information to reveal to their players.</p>
 
+<p>Sharing information is vital: players have to find clues in order to make decisions. However, knowing too much enables a player to avoid risky situations (and thus, spoils the fun).</p>
 
+<p><a href="http://friendsatthetable.net">Friends at the Table</a> does this masterfully. They share maps with <a href="http://www.roll20.net">Roll20</a> to create a remote tabletop experience. Maps grow, iterate over in-game generations, and aren’t ever complete.</p>
 
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-      
-        
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Draw maps, but leave blank spaces.<a href="https://twitter.com/hashtag/FriendsAtTheTable?src=hash&amp;ref_src=twsrc%5Etfw">#FriendsAtTheTable</a></p>&mdash; FatT Wisdom (@FatT_Wisdom) <a href="https://twitter.com/FatT_Wisdom/status/782590551388327937?ref_src=twsrc%5Etfw">October 2, 2016</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<p><em>Friends at the Table Wisdom.</em></p>
 
+<p>The game master, Austin Walker, is obsessed with clocks. Clocks are little game markers that count up or down, and the hands on the clocks get moved when major actions happen in the game. These clocks are tense reminders that small actions taken by the players have potentially huge repercussions later down the road.</p>
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/product/product-pitfalls/" rel="permalink">Product Management Pitfalls
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<h3 id="iterative-design">Iterative Design</h3>
 
+<p>Leave space in the product. Navigation, page layouts, and text/content will change as a product team learns and builds more. Leave space for the product to grow and expand. If there’s no more space, consider breaking out the product into companion applications.</p>
 
+<p>The first released version of a feature should exist to answer three questions:</p>
+<ol>
+  <li>Does it solve an actual problem?</li>
+  <li>Can our users actually use it?</li>
+  <li>What should we add to the feature now?</li>
+</ol>
 
+<p><strong>Every feature has a roadmap.</strong> It grows and evolves over time, especially in response to these questions. A product team should make plans to create more value and complexity in a feature accordingly. However, the first release (or even just usability tests) of a feature can inform it further for the future. Don’t get too hung up on future plans, but leave space in the roadmap and the product for the plans to unfold.</p>
 
-  7 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Every day, the product manager spends time moving the product, the team, and the business forward. There’s always room for improvement in decision making, pr...</p>
-  </article>
-</div>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
+<h2 id="leveling-up">Leveling Up</h2>
 
-  <section id="2016" class="taxonomy__section">
-    <h2 class="archive__subtitle">2016</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/product/dungeon-manager/" rel="permalink">The Dungeon Manager
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<p><img src="https://cdn-images-1.medium.com/max/600/1*KRoUF32p6_WghSpnVH-0iQ.jpeg" alt="D&amp;D Character Sheet" /></p>
 
-
-
-
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium.
-</p>
-  </article>
-</div>
-      
-        
+<p><em>A Dungeons &amp; Dragons Character Sheet</em></p>
 
+<p>Playable characters receive experience points (XP) upon completing certain quest elements or defeating enemies. They learn new spells, pick up helpful items, and activate effects over time.</p>
 
+<p>At key XP levels, users gain levels which improve their overall abilities and characteristics. As the campaign progresses, the challenges the players face becomes more difficult. These two forces must be in balance for the game to be enjoyable. No one likes an impossible challenge, but a game that’s too easy to beat won’t be fun to play for long.</p>
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/teams/Managing-Growing-Pains/" rel="permalink">RailsConf 2016: Managing Growing Pains
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+<h3 id="user-onboarding">User Onboarding</h3>
 
+<p>A good product should guide a user through the act of using it. Using tools like <a href="https://www.intercom.com/smart-campaigns">Intercom’s Campaigns</a> easily allow a product to “speak” to a user as they take necessary steps to engage with the product.</p>
 
+<p>As a user engages with a product, what are new features or new messages that can be delivered to them? Is it possible to sequence a user’s actions by adding more complexity and additional features once they “unlock” them with their own experience?</p>
 
+<p>Pay walls are easy ways to achieve this, in the SaaS world. Test a “pro” tier model that locks up key features or additional services per month, and segment different audience groups by what they’re willing to pay. These passionate users may have different needs from a free or lower priced tier, which allows a product team to better prioritize a roadmap.</p>
 
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">I had the pleasure of both attending and speaking at my first RailsConf this year. I gave a talk on how to orient and manage a product team when resources ar...</p>
-  </article>
-</div>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
-
-  <section id="2015" class="taxonomy__section">
-    <h2 class="archive__subtitle">2015</h2>
-    <div class="entries-list">
-      
-        
+<h3 id="non-playable-characters">Non-Playable Characters</h3>
 
+<p><img src="https://cdn-images-1.medium.com/max/600/1*X2qsyr9ZvYq_A_OWvrrjAg.jpeg" alt="Non-Playable Characters" /></p>
 
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/planning/natural-planning/" rel="permalink">Natural and Reactive Planning
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
+<p><em>NPCs act as signposts and delivery mechanisms to guide the player.</em></p>
 
+<p>Non-Playable Characters (NPCs) are characters played by the game master. They’re more than just exposition or set-dressing: they help move the story, guide the players, and include all enemies the players encounter during their campaign.</p>
 
+<p>A good NPC doesn’t solve the problem for the players, but helps them discover the solution. They may provide a valuable resource or item in a moment of need, or even just raise a flag to point in a new direction.</p>
 
-  2 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">The difference between emergent and proactive thinking.
-</p>
-  </article>
-</div>
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/user-research/testing-ideas/" rel="permalink">Testing Your Way to a Better Idea
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  9 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">The work we do is never done. It can always be improved.  The same is true with an idea.
-</p>
-  </article>
-</div>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
-
-  <section id="2014" class="taxonomy__section">
-    <h2 class="archive__subtitle">2014</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/planning/user-stories/" rel="permalink">Useful User Stories
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  14 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">User stories are the currency of our trade.
-</p>
-  </article>
-</div>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
-
-  <section id="2013" class="taxonomy__section">
-    <h2 class="archive__subtitle">2013</h2>
-    <div class="entries-list">
-      
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/planning/pomodoro/" rel="permalink">How an Italian Tomato Fixed My Brain
-</a>
-      
-    </h2>
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  3 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">As a recovering workaholic, I find Pomodoros help me do just enough work each day. It’s a nice feeling to stack up a pile of tomatoes and call it quits for t...</p>
-  </article>
-</div>
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-  </section>
+<h3 id="humanizing-theproduct">Humanizing the Product</h3>
+
+<p>Tools like Intercom, HubSpot and chatbots are quickly introducing a human element into the onboarding and engagement activities of modern products. Bots and messengers can help provide in-app signage, guideposts and helpful tips to users. They shouldn’t replace a <a href="https://blog.intercom.com/principles-bot-design/">human interaction</a>, but can do wonders for helping remove roadblocks for users.</p>
+
+<p>These bots can easily turn sideways if the interactions aren’t planned properly. They should be directional, <a href="https://www.fastcodesign.com/3054934/the-next-phase-of-ux-designing-chatbot-personalities">helpful</a>, and include an escalation path to real humans.</p>
+
+<h2 id="steal-from-everywhere">Steal from Everywhere</h2>
+
+<p><img src="https://cdn-images-1.medium.com/max/600/1*39ir6dcayW4HJCzlW6yNxA.jpeg" alt="A dumb Darth Vader joke" />
+<em>Luke, use a constitution saving throw!</em></p>
+
+<p>Inspiration is all around. While Dungeons &amp; Dragons has inspired many games (looking at you, Skyrim!), storylines within campaigns can contain elements from all sorts of cultural touchpoints.
+Great campaigns incorporate real-world events, follow the trajectory of movies, books, and more. Look for patterns in story arcs, find things that fit the campaign. Weaving in aspects of amazing stories and ideas only makes a campaign stronger.</p>
+
+<h3 id="no-really-steal-from-everywhere">No Really: Steal from Everywhere</h3>
+
+<p>Inspiration really is all around. Great products and apps <a href="https://www.producthunt.com">launch every day</a> and ideas can come from everyday interactions. Look for patterns, find what works, and find ways to incorporate similar patterns. Don’t copy for the sake of copying, but look for what solves problems that the product is currently struggling with.</p>
+
+<h2 id="and-most-importantly">And Most Importantly…</h2>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Fpjh1IqWdW-BtAi2P3YCPA.jpeg" alt="Stranger Things" />
+<em>Write a story you believe in with people you care about.</em></p>
+
+<p>Games like this require a team. This can’t be done alone, and if someone isn’t contributing, they tend to get written out of the story. The same is true for building product. Be humble, be helpful, enable others to do great work, and the story will write itself.</p>
+
 
 
   </div>

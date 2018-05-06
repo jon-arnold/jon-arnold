@@ -2,10 +2,10 @@
 layout: posts
 title:  "The Problem with Activism"
 date:   2013-06-03 12:15:30
-excerpt: The unfortunate truth: many of those most able to help have fallen into a restless pattern of slacktivism that is preventing real good from getting done.
+excerpt: Many of those most able to help others have fallen into a restless pattern of slacktivism that is preventing real good from getting done.
 header:
   overlay_image: "img/home-bg.jpg"
-categories: non-profit
+categories_label: non-profit
 ---
 
 A while back, I wrote a blog post about the current state of volunteerism (I live in Tennessee, the Volunteer state, after all) and non-profits in general.

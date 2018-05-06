@@ -20,8 +20,6 @@ title                    : "Jonathon Arnold"
 title_separator          : "-"
 name                     : "Jonathon Arnold"
 description              : "Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares."
-url                      : http://jonathonarnold.com
-baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -103,7 +101,7 @@ author:
   bio              : "Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares."
   location         : "Nashville, TN"
   email            : jonathonarnold@me.com
-  uri              : jonathonarnold.com
+  uri              : #
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
@@ -266,4 +264,4 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      related: false
