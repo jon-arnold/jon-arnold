@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Natural and Reactive Planning"
 date:   2015-10-20 12:15:30
 header-img: "img/user-workshop-bg.jpg"

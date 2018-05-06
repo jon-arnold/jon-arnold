@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "The Dungeon Manager"
 date:   2016-10-10 10:25:30
 header-img: "img/home-bg.jpg"

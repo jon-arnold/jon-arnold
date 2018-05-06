@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "A Non-Profit Discovery Process"
 date:   2015-04-15 11:15:30
 header-img: "img/contact-bg.jpg"

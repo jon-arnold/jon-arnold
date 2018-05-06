@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Work"
 description: "Let's build better products for real people."
 header-img: "img/user-workshop-bg.jpg"
@@ -7,7 +7,6 @@ weight: 3
 ---
 
 ## Experience
-<br>
 
 #### Agencies
 
@@ -27,7 +26,6 @@ In 2011, I co-launched Interactive for Good, a digital consultancy for the moder
 
 
 ## Expertise
-<br>
 
 #### Product Management
 

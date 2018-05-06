@@ -1,0 +1,733 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Product Management Pitfalls - Jonathon Arnold</title>
+<meta name="description" content="In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve tried to make the most of these situations, even if what transpired wasn’t the best possible outcome. They’re called pitfalls for a reason: it’s easy to get caught up in doing what seems right, only to wind up dealing with the fallout and entanglement of your best intentions. Simple product management mistakes often have long term ramifications, or just take a long time to undo. Before you find yourself stuck in these traps, I hope these points help you do better for your teams and your products.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Jonathon Arnold">
+<meta property="og:title" content="Product Management Pitfalls">
+<meta property="og:url" content="http://localhost:4000/product/product-pitfalls/">
+
+
+  <meta property="og:description" content="In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve tried to make the most of these situations, even if what transpired wasn’t the best possible outcome. They’re called pitfalls for a reason: it’s easy to get caught up in doing what seems right, only to wind up dealing with the fallout and entanglement of your best intentions. Simple product management mistakes often have long term ramifications, or just take a long time to undo. Before you find yourself stuck in these traps, I hope these points help you do better for your teams and your products.">
+
+
+
+
+
+  <meta name="twitter:site" content="@jonarnold">
+  <meta name="twitter:title" content="Product Management Pitfalls">
+  <meta name="twitter:description" content="In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve tried to make the most of these situations, even if what transpired wasn’t the best possible outcome. They’re called pitfalls for a reason: it’s easy to get caught up in doing what seems right, only to wind up dealing with the fallout and entanglement of your best intentions. Simple product management mistakes often have long term ramifications, or just take a long time to undo. Before you find yourself stuck in these traps, I hope these points help you do better for your teams and your products.">
+  <meta name="twitter:url" content="http://localhost:4000/product/product-pitfalls/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2018-05-01T11:15:30-05:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/product/product-pitfalls/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Jonathon Arnold",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jonathon Arnold Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--posts">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Jonathon Arnold</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about" >About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/work" >Work</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Jon Arnold</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Nashville, TN</span>
+        </li>
+      
+
+      
+        <li>
+          <a href="jonathonarnold.com" itemprop="url">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i> Website
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="mailto:jonathonarnold@me.com">
+            <meta itemprop="email" content="jonathonarnold@me.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/jonarnold" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/jon-arnold" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Product Management Pitfalls</h1>
+    
+    <p>In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve tried to make the most of these situations, even if what transpired wasn’t the best possible outcome. They’re called pitfalls for a reason: it’s easy to get caught up in doing what seems right, only to wind up dealing with the fallout and entanglement of your best intentions. Simple product management mistakes often have long term ramifications, or just take a long time to undo. Before you find yourself stuck in these traps, I hope these points help you do better for your teams and your products.</p>
+
+<p><em>Note: I can’t take credit for many original ideas here, and can certainly identify references for most of them. To that end, there’s some recommended reading at the end of this post.</em></p>
+
+<h2 id="timing-the-roadmap">Timing the Roadmap</h2>
+<p>There’s two schools of thought with a product roadmap: include timelines on your roadmap, and don’t include them. I firmly fall in the “no timelines” camp, for a key reason: a product roadmap is not a project plan. Projects have identified scope, budget, outcomes, and estimated timelines. A product roadmap can include aspects of these (especially problem/scope identification and key outcomes to influence), but shouldn’t be a list of hard and fast initiatives with due dates. A good product manager should work with a project delivery team to shore up all these elements and build project plans and backlogs, when necessary, but that’s not the same thing as the roadmap proper.</p>
+
+<p>Within a very short period of time, a product manager who commits to providing timelines will find themselves  answering questions like, “When will that feature be out?” instead of asked to measure problem opportunity and value. The role of the product manager will morph into pushing the team to deliver on a set date, rather than toward a set <em>outcome</em>. Achieving business outcomes are always more valuable than specific dates. (But yes, an outcome may sometimes require  hitting a particular date — more on that below)</p>
+
+<p><img src="http://jonathonarnold.com/img/posts/prodpad.jpg" alt="ProdPad" /></p>
+
+<p><img src="http://jonathonarnold.com/img/posts/aha.jpg" alt="Aha" /></p>
+
+<p>I find that roadmapping tools like <a href="https://www.prodpad.com">ProdPad</a> provide a great platform to measure user need/impact, business value, and priorities. <a href="https://www.aha.io">Aha!</a> allows for specific quarters and actual dates - be careful there. I much prefer the ProdPad method or a rough sorting of priorities in team, like Now, Next, Near, and Horizon. A product manager can use these labels to show a team’s current focus, and update on priorities to leadership, without having to commit the entire team to a specific due date.</p>
+
+<h3 id="commitments">Commitments</h3>
+<p>On that note, it’s worth reiterating: make <strong>NO</strong> commitments for the team without involving the team in the decision. A product manager may find themselves in discovery sessions, client meetings, or executive summits, and be asked to deliver a particular feature or functionality, or to have something done by a particular date. You, alongside your counterparts in technology and project management, will have to play a defensive role to protect your team. Personally, I’ve found myself in more then a few awkward moments when I won’t commit to something and slow down the momentum of a productive client or stakeholder encounter. It’s worth suffering these difficult moments to prevent weeks or months of pain.</p>
+
+<p>How <em>should</em> this commitment work? Include the team! Invite as many as possible to discovery sessions or workshops. Hold round table requirements review sessions, and work with them on a comfortable form of estimating (spoiler: no estimation process is perfect). Work with project management to appropriately pad all estimates for error, and include for planning, design, copy, QA, marketing and training. Only then can you provide solid dates and milestones to your stakeholders, and only then can they see just how much goes into every project your team embarks upon.</p>
+
+<h3 id="crunch-time">Crunch Time</h3>
+<p>If your team has committed themselves to completing a project by a certain time, and realizes extra effort is needed, you can choose a crunch time window or two to get things done. Crunch time is a short term thing, and should rarely be deployed. This is typically a bloated sprint with extra work, requiring longer hours, weekend work, or even an offsite retreat together to get the work done together. I hope it’s clear that “together” also includes product management and any leadership affiliated with the crunch time project: you should be invested, too. When getting into crunch time, have clear expectations of the goal, the time requirements, and allow as much volunteering as possible. When getting out of crunch time, hold a post-mortem session to talk about what happened, and how the team can work to avoid or make the most of crunch time in the future.</p>
+
+<p>This is not meant to be a sustainable working pace, but something your team might only do once or twice per year, if that. Once your team has made it past this crunch time window, expect a similar but opposite decompression period where work output is decreased and productivity or time working is reduced. Your team will need time to balance out the extra work they’ve put in. If you don’t allow for this, or you continually push for crunch time month after month, you will burn people out and they’ll either leave, or worse — they’ll stay and become bitter or unproductive. Their work output will almost certainly be subpar and their attitude may turn toxic. Sadly, this is not their fault, but a result of pushing the team to constantly hit artificial deadlines or due dates.</p>
+
+<h2 id="decision-making">Decision Making</h2>
+<p>As your team chooses what to work on next, refer back to your prioritized roadmap often (and don’t change priorities more than once a quarter). Repeat yourself in terms of these priorities — become annoying in your sameness of your priorities. Your team can only work on a handful of things at a time, and that includes planning, ideating, and estimating. Leadership and the business needs to be comfortable with certain things sitting on ice. You should limit your focus as well, and spend time researching, talking to users, and writing towad your priorities.</p>
+
+<p>When building a roadmap, brief, or spec, I’m a believer in the phrase, “Strong Opinions Weakly Held”. Use your experience, insights, and research to stand up confident plans to that future world of what your product <em>should</em> be.  In this confident stance, a good product manager holds a few things in mind:</p>
+
+<h3 id="strong-opinions-but">Strong Opinions, But…</h3>
+<p>The “Weakly Held” part of the phrase means you’ll quickly change decisions, specs, or requirements when presented with compelling data, evidence or just good sense. You have to make sure your team <em>knows</em> this, or else you’ll find them following along with your plan but quietly disagreeing with its tenets. Make sure your team is well aware they can make your plans better, and that they are just as responsible as you are for the successful outcomes you’re driving toward.</p>
+
+<h3 id="decentralize-decision-making">Decentralize Decision Making</h3>
+<p>Not every decision needs to run through the hands of the product manager. Push them to think about outcomes, not specific actions, and release them to do what they do best. The team is smart, subject matter experts and can go off and figure things out without you. Give feedback when they delay because you weren’t around to approve a small but logically solid change. Otherwise, you <em>will</em> become a bottleneck to the creative process, and you <em>will</em> limit the creative potential of the members of your team. Just ensure they remain focused on priorities and goals, and they’ll help you get there.</p>
+
+<h3 id="comfortable-with-uncertainty">Comfortable with Uncertainty</h3>
+<p>As a product manager, your job is to measure the business value and the user need, and express these problems and goals to your delivery teams. With these three disparate areas intersecting, you will be wrong. Often. You need to learn to be comfortable in this wrongness, and learn to pivot toward correct thinking. It’s ok to be wrong, as long as the team knows your intent and is there to help move to the right place together.</p>
+
+<p>Similarly, your team needs to be comfortable with this uncertainty. Your spec may not be intensely detailed. You may not have completed all the research you’d have liked to. The team should be comfortable knowing that you haven’t figured it all out yet, and should get excited with the gaps they get to fill in along the way. Encourage them to participate (not just in planning a sprint or a list of dev tasks, but planning how to achieve your goals) and watch their investment in the product grow.</p>
+
+<h2 id="going-forward">Going Forward</h2>
+<p>I’ve touched on just a few tactics and issues faced in the role of product management, but they’ve all got common touchpoints. Every day, the product manager spends time moving the product, the team, and the business forward. There’s always room for improvement in decision making, process, and people skills. I hope you’ll find this useful as you tackle these issues and grow in your role and in your company.</p>
+
+<h3 id="recommended-reading">Recommended Reading</h3>
+<ul>
+  <li><a href="https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113">PeopleWare: Productive Projects and Teams</a></li>
+  <li><a href="https://www.amazon.com/Making-Right-Product-Management-Startup-ebook/dp/B00M0KTVTO">Making It Right</a></li>
+  <li><a href="https://productleadershipbook.com/">Product Leadership</a></li>
+  <li><a href="https://www.prodpad.com/blog/">ProdPad Blog</a></li>
+  <li><a href="https://www.thisisproductmanagement.com">This is Product Management</a></li>
+</ul>
+
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2018">
+        <strong>2018</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2016">
+        <strong>2016</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2015">
+        <strong>2015</strong> <span class="taxonomy__count">3</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2014">
+        <strong>2014</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2013">
+        <strong>2013</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+  <section id="2018" class="taxonomy__section">
+    <h2 class="archive__subtitle">2018</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/product/product-pitfalls/" rel="permalink">Product Management Pitfalls
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve ...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2016" class="taxonomy__section">
+    <h2 class="archive__subtitle">2016</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/product/dungeon-manager/" rel="permalink">The Dungeon Manager
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium. Check it out:
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/teams/Managing-Growing-Pains/" rel="permalink">RailsConf 2016: Managing Growing Pains
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I had the pleasure of both attending and speaking at my first RailsConf this year. I gave a talk on how to orient and manage a product team when resources ar...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2015" class="taxonomy__section">
+    <h2 class="archive__subtitle">2015</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/natural-planning/" rel="permalink">Natural and Reactive Planning
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Learn to plan from your brain.
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/user-research/testing-ideas/" rel="permalink">Testing Your Way to a Better Idea
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">In product development, we care about ideas. Ideas create products and services. They connect us to other people. They lead to changing things. When we talk ...</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/non-profit/Non-Profit-Discovery/" rel="permalink">A Non-Profit Discovery Process
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I love non-profits. Nashville is full of amazing people, doing unbelievable things to help those around them and the world at large. These people are vision ...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2014" class="taxonomy__section">
+    <h2 class="archive__subtitle">2014</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/weekly-review/" rel="permalink">The Weekly Review
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">The Weekly Review
+…or checking on your checklists
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/user-stories/" rel="permalink">Useful User Stories
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  14 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why Write User Stories?
+
+</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2013" class="taxonomy__section">
+    <h2 class="archive__subtitle">2013</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/pomodoro/" rel="permalink">How an Italian Tomato Fixed My Brain
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I’m a productivity nerd. I’ve tried more to-do applications and note-taking systems than I can remember, and have built up several ridiculous systems to help...</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/non-profit/Problem-with-Activism/" rel="permalink">The Problem with Activism
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">A while back, I wrote a blog post about the current state of volunteerism (I live in Tennessee, the Volunteer state, after all) and non-profits in general.
+
+</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/jonarnold"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/jon-arnold"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Jonathon Arnold. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

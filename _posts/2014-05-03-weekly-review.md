@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "The Weekly Review"
 date:   2014-05-03 16:45:30
 header-img: "img/about-bg.jpg"

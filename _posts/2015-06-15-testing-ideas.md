@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Testing Your Way to a Better Idea"
 date:   2015-06-15
 header-img: "img/journey-map-bg.jpg"

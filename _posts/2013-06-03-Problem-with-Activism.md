@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "The Problem with Activism"
 date:   2013-06-03 12:15:30
 header-img: "img/home-bg.jpg"

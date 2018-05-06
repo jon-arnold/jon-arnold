@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: posts
 title:  "Product Management Pitfalls"
 date:   2018-05-01 16:15:30
 header-img: "img/about-bg.jpg"
 categories: product
 ---
 
-# Product Management Pitfalls
 In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve tried to make the most of these situations, even if what transpired wasn’t the best possible outcome. They’re called pitfalls for a reason: it’s easy to get caught up in doing what seems right, only to wind up dealing with the fallout and entanglement of your best intentions. Simple product management mistakes often have long term ramifications, or just take a long time to undo. Before you find yourself stuck in these traps, I hope these points help you do better for your teams and your products.
 
 _Note: I can’t take credit for many original ideas here, and can certainly identify references for most of them. To that end, there’s some recommended reading at the end of this post._

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "RailsConf 2016: Managing Growing Pains"
 date:   2016-05-25 12:15:30
 header-img: "img/home-bg.jpg"

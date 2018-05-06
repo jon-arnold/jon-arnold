@@ -1,0 +1,903 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Useful User Stories - Jonathon Arnold</title>
+<meta name="description" content="Why Write User Stories?">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Jonathon Arnold">
+<meta property="og:title" content="Useful User Stories">
+<meta property="og:url" content="http://localhost:4000/planning/user-stories/">
+
+
+  <meta property="og:description" content="Why Write User Stories?">
+
+
+
+
+
+  <meta name="twitter:site" content="@jonarnold">
+  <meta name="twitter:title" content="Useful User Stories">
+  <meta name="twitter:description" content="Why Write User Stories?">
+  <meta name="twitter:url" content="http://localhost:4000/planning/user-stories/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2014-02-21T02:15:30-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/planning/user-stories/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Jonathon Arnold",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jonathon Arnold Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--posts">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">Jonathon Arnold</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about" >About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/work" >Work</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Jon Arnold</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Jon Arnold is a UX strategist, product manager, and workshop facilitator who cares.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Nashville, TN</span>
+        </li>
+      
+
+      
+        <li>
+          <a href="jonathonarnold.com" itemprop="url">
+            <i class="fas fa-fw fa-link" aria-hidden="true"></i> Website
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="mailto:jonathonarnold@me.com">
+            <meta itemprop="email" content="jonathonarnold@me.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://twitter.com/jonarnold" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/jon-arnold" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Useful User Stories</h1>
+    
+    ## Why Write User Stories?
+
+Developers can take notes and problem solve. The typical user story syntax is clunky and meaningless. I can get my point across without them.
+
+These are all true statements, but they're also full of misconceptions. 
+
+Too often, requirements are given as a hallway conversation or email note by a busy executive who's trying to get something done. Two weeks later, the work is complete and it bears *zero* resemblance to what the executive had in mind. Therein lies the main problem: we're trying to collect information from each other's minds and without a shared perspective we often miss each other's point.
+
+User stories are the currency of our trade. They allow technical and non-technical folks alike to collaborate, plan and outline a product's requirements. With a well-defined and well-written story, teams can work together without ambiguity or confusion.
+
+## Defining a User Story
+
+The basic definition of a user story is…
+
+> A description of functionality that will be valuable to a user of a system or software.
+
+To break that apart:
+
+1. **Description.** This description should be well articulated, but not overly complex. Anyone should be able to read it and explain it back to you.
+2. **Functionality.** It must be specific enough that it *does* something. This is not marketing copy.
+3. **Valuable.** The most important part. Why should we be building this thing, anyway? Does it save us time? Make us money? Is it just mind-bendingly awesome?
+4. **User.** Who are we doing this for? Bob in Accounting? The executive team? Our core user group? A small, but valuable, subset of our users?
+5. **System or software.** The domain in which we're working. Where does the story fit in the overall arc of our product?
+
+
+### User Story Syntax
+
+The basic components of a user story are…
+
+>As a << user >>, I want << feature >> so that I can << receive value >>.
+
+Three modular pieces: Users, features, and value. As mentioned before, the value is the most important part (and I often write that part first). Why should we care about this story? What is its happy ending?
+
+What does the thing actually need to do, and who does it serve? There's more to it than that, but that's the basic operating syntax. Modern stories often turn into full-on *narratives*, which contain 
+
+
+Later, we'll talk about how to actually write them and how to collect requirements for good stories.
+
+## Writing Good User Stories
+
+First and foremost, a good user story allows us to easily have **empathy** for our customer or user. Sure, it's a buzz word, but an important one: knowing why our users can benefit helps us create better software to serve their needs. When we downplay the importance of understanding our users, we end up with terrible interfaces and cludgy experiences that satisfy requirements, but don't delight.
+
+### Start with the User
+
+They're called user stories for a reason. We need to have a solid understanding of the user's interaction with our software in order to write for them. I'm not talking about personas or demographic identification right now (although that is important). I'm more concerned now with *who* is actually using the system and what their technological abilities and constraints are.
+
+In brainstorming the user role, simply name the individual type who will represent the role. Organize the set by sorting the roles into relationships between them - overlapping and adjacent roles. Things to think about:
+
+* The user's level of domain knowledge
+The user's technical proficiency
+The user's proficiency with the software
+The frequency a user will interact with it
+The user's goal for using the software
+The user's context for using the software (mobile!)
+
+From there you should have a solid list of key user roles and how they're going to interface with your product. It should become somewhat clear from this alone what key requirements are for each group.
+
+### Story Rules
+
+A good story must also follow agreed upon guidelines. This is really well articulated in Mike Cohn's reference, [User Stories Applied](http://www.mountaingoatsoftware.com/books/user-stories-applied). He co-opted the "INVEST" model for writing stories, which is:
+
+* "I" ndependent (of all others)
+"N" egotiable (not a specific contract for features)
+"V" aluable (or vertical)
+"E" stimable (to a good approximation)
+"S" mall (so as to fit within an iteration)
+"T" estable (in principle, even if there isn't a test for it yet)
+
+Another key tenet of user stories is laid out here: stories aren't a commitment, but a *reminder*. They're a placeholder for a more detailed conversation and an overview of an idea. One shouldn't expect that a user story alone gives a team enough information to go off and build something.
+
+As we break a story down into its component parts, we start outlining its needs. A few things that come alongside a user story in later planning:
+
+* Wireframes or UI design
+* User workflows, content and form fields
+* Acceptance criteria
+* A development checklist and estimate
+
+The closer you are to a story in your planning process, the more detailed it needs to be. Conversely, the farther a story is from an iteration, the larger and less precise it can be. These less precise stories are often called **epics**, as they end up containing large swaths of functionality and multiple stories themselves. They're not bad stories, just big, and will ultimately get broken down into their component parts.
+
+#Collecting Stories
+
+I write stories almost exclusively on 3"x5" notecards. I **love** notecards. They're cheap, physical objects that can be moved around, grouped together, or (my favorite) torn up. I also typically use a standard Sharpie marker, as the physical constraint forbids me from writing too much detail on a card. Sometimes I lay them out on a table, on the floor, or tape them to a wall. They typically get grouped, organized, prioritized and discussed in great detail while they're still physical cards.
+
+![Organized User Story Notecards](http://cl.comenerdwith.me/V6wS/stories%20on%20a%20wall.png)
+
+There are a few ways we can retrieve user stories from a disparate team of people or groups of users.
+
+To help get people thinking and articulating their thoughts further, I often like to facilitate a workflow workshop. Start with an empty box and use this as your starting screen or interaction point. Walk through what happens next, and take a depth-first approach: follow each trail to its end rather than trying to go one level deep across the whole experience.
+
+While doing yourself, prompt the group with:
+
+* What will the user want to do next?
+* What mistakes might the user make?
+* What additional information might the user need now?
+
+Focus on quantity over quality at this stage. You're brainstorming, so postpone UI. Sometimes I'll even draw circles or just words on a whiteboard to remind everyone that we're not talking about how something *looks*, but how it *works*. Boxes look like buttons or screens, so defer that visual thinking until the idea's been articulated.
+
+Now we have a list of key users and an understanding of what they need to do with the product. It's time to actually write stories. I like to facilitate short bursts of creative writing, normally around Card Passing.
+
+I use a [Time Timer](http://www.timetimer.com/), a really fantastic visual timer, to keep things moving. I typically go through a few different ways of writing stories, all with stacks of notecards around a table with our stakeholders and clients.
+
+![Time Timer](http://cl.comenerdwith.me/V5n1/time%20timer.png)
+
+#### Individual Writing
+
+Normally I'll set a five minute clock and have everyone "claim" a user workflow or feature set. Then each person writes as many cards as they can. Once the five minutes are up, I read each card (without revealing its author) and allow the group to sort the cards and identify duplicates. **Remember, we're still brainstorming.** I don't tear up any cards… yet.
+
+#### Group Writing
+
+Next, I'll set the timer and have each person at a table write the “As a…” statement then pass the card to their left.  The next person writes the “I want…” and so on. Complete cards in this way until your time has elapsed.
+
+Then, start with the “So that…” and then the “As a…” - "I want…"" comes last.
+
+Passing cards forces everyone at the table to stop thinking linearly. They're often presented with a user type or business value they don't normally think about, and so they have to creatively come up with ways to serve those needs.
+
+I find that group writing typically yields more in terms of card volume, and, as you'd expect, the general quality of the cards goes down. That's ok – the point here is still quantity over quantity.
+
+Once we're done, I stop the group and we check in again by reading all the cards. It's important here to make sure all users are represented and at least *some* level of functionality is recorded for each of the workflows, features and ideas we've had around the table. Once we've confirmed that as a group, we start sorting.
+
+![User Story Sorting](http://cl.comenerdwith.me/V6xk/organizing%20user%20stories.png)
+
+Story sorting allows us to weed out bad ideas, poorly written or duplicate cards. It also allows us to stack relevant thoughts together as we chain features and needs together in a workflow. Ultimately, we strive for consensus but it's always best to have a true product owner in the room to establish priority and our team's direction.
+
+Now we have an idea of what we're building. Feel good? This process should be draining, but incredibly satisfying. We're just getting started. Next time, we'll unpack how to add the right amount of criteria to our stories so they can actually be worked on.
+
+### Acceptance Testing Stories
+
+User stories are great placeholders for functionality, but they're not all the functional requirements we need. To go deeper on actually conveying need, we integrate a series of acceptance tests to confirm a story is satisfied. Or, put another way: how do we know when it's done?
+
+A few ground rules:
+
+1. It’s better to write a short story and a longer list of metrics to test.
+2. These tests should be written before coding.
+3. These tests should (typically) not be written by the actual developers.
+4. These tests should comprise the QA script for the team after coding.
+
+#### Writing Acceptance Tests
+
+Acceptance tests are detailed list of requirements that accompany a story. They should be actionable and task oriented, centered around the following thoughts:
+
+* What does the team need to know about the story?
+* What can go wrong during the story?
+* What am I assuming about how the story will be implemented?
+
+It's a good idea to use a consistent tone and syntax here, too. Our team follows the “Verify That…” approach. The first line of your acceptance tests should begin with that phrase, and what follows can be a simple list of to-do's, essentially. This allows the developer as well as te QA team to ensure the requirement is met.
+
+#### Behavior Modeling
+
+Another way of explaining detailed functionality is via a behavior model. This layout gives another consistently phrased approach to how we handle individual requirements. The syntax is:
+
+>Given that I am << on a page >> and I have << performed an action >>, I should << see this reaction >>.
+
+This model is also great for QA and bug submissions. Simply add, "Instead, I expect << desired functionality >>." to the end of that line and you've got a really well detailed error report that can be submitted to a developer.
+
+I often write these tests on the back of the user story notecard. Again, this limits the amount of detail I can add to a particular card (and instead implies that I should break complex stories down into multiple cards or enttities).
+
+So now we've got a big pile of well written, thought out user stories and they even have acceptance criteria. Next up: how do we know where to start?
+
+
+### Prioritizing Stories
+
+Over this series in user stories, we've gone through how to identify users, how to lay out their needs, how to document them into stories, and how to put additional detail around those requirements. Now we need to answer the tough question: what do we do first?
+
+Typically, we always seek the easiest, highest value items to work on next. To get there, though, we still need to determine what's easy and what's valuable.
+
+#### Valuing Stories
+
+For every story, we think through the following:
+
+* How desirable is this story to the core user group?
+* How does this story impact overall cost?
+* How important is this story in relation to other stories?
+
+Each story then gets assigned a relative value to identify how important it is compared to others. We like the MOSCOW method for identifying business value and priority. It's easy enough:
+
+>**M**ust have, **S**hould have, **C**ould have, **W**ant to have
+
+Every story card we write ends up with a relative value assigned to it by our product owner. Or, we might go more in depth using a system like the [Kano model](http://en.wikipedia.org/wiki/Kano_model). I love this model for its dispassionate ability to organize ideas into areas of value. It's easy enough 
+
+Another great exercise is **story shopping**. We can assign a baseline value to each story (possibly from our initial estimates) and allow our stakeholders to "shop" for them with a fictitious amount of money. Of course, we ensure there's more points on the table than the client has in terms of fake money – so, preference and choice emerges to help complete the exercise. It's subtle, but using scarcity quickly shows us what we need to be focusing on and what items can wait for later.
+
+#### Estimating Stories
+
+While a product owner is evaluating the relative business value of our stories, a development team should be reviewing them to discuss the potential time (and thus, cost) each story will take. This figure can be incredibly important when making the decision of business value: a story that will take two weeks might be less desirable than one that takes two days. The only way to know is to confirm with our development team.
+
+Like writing the actual stories, our team needs a common language in order to establish the recommended cost of each story. That language should allow us to:
+
+* Change our mind when we have new information about a story
+* Plan for epics and smaller stories
+* Not spend much time estimating
+* Provide useful information about our work and the time remaining
+* Take imprecision of estimation into account
+* Quickly plan releases
+
+To that end, it's best to use abstracted points rather than estimating in hours. Points represent no real unit of time, but are a currency an entire team can comprehend. A scale of points is simply a measure of _relative complexity_.  A 20 point story is four times larger than a 5 point story, and so on.
+
+It's a good idea to use pre-defined values like the modified Fibonacci sequence: 1/2, 1, 2, 3, 5, 8, 13, 20, 40, 80. A logarithmic scale like that reminds us that point precision decreases as story sizes increase. To keep things simple, we sometimes use a difficulty scale, where 4 points represents an extremely complex story, whereas 2 points is half as difficult.
+
+Again, remember that an estimate is really a "size", not a true time estimate. t's always best to think of how stories relate to one another in terms of relative difficult and assign that point value accordingly.
+
+#### Estimating Meetings
+
+Here's an effective workflow for how to convey user stories to a development team, clarify their needs and then produce an estimate.
+
+1. Gather the team (Customer team and developer team) and share the stories.
+2. The customer or customer team reads a story to the developers. This should take a while.
+3. The developers ask questions, the customer clarifies (take good testing notes!).
+4. Each developer should write a story point estimate down for each story without showing the other developers.
+5. At the end of this process, each developer should share the story estimates with each other.  **They will differ.**
+6. The high and low estimators will need to explain their decisions and discuss for clarity with the group.
+7. From there, the group should converge on one point number estimate for each story.
+
+The points estimation process here is often called "Planning Poker", since it involves a sort of card game like estimate reveal. Allow developers to discuss points, rather than just arbitrarily handing them out. Allow developers with experience in one area to claim a series of stories so they might assign a lower point value to them. Allow junior developers to place a higher point value on an item and claim it for themselves (or better, to pair up with someone else on it).
+
+Organize the story cards into a digital system like [Trello](http://trello.com) and allow the business stakeholders and product manager(s) to prioritize the stories at will. The development team should make recommendations on how to address the right order of a stories, but ultimately the business is responsible for choosing what work happens first.
+
+_Expect the order to change frequently._
+
+![Agile Trello Board](http://mrdanadams.com/images/trello/board.png)
+
+Once we're into a system like this, we've now got a prioritized, estimated and well-organized backlog of work that our team can start chipping away at. The goal here, again, is not to keep things set in stone; the team gathered and learned enough simply _to get going_.
+
+This backlog should breathe. It should rise and fall as stories are added and completed, and should change structure frequently.  The list of stories can always be polished, pruned and expounded upon (and we should welcome it). Review the backlog frequently to remove dead weight and add new insight. It's a constant dialogue; the stories are just the cue cards.
+
+<ul class="taxonomy__index">
+  
+  
+    <li>
+      <a href="#2018">
+        <strong>2018</strong> <span class="taxonomy__count">1</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2016">
+        <strong>2016</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2015">
+        <strong>2015</strong> <span class="taxonomy__count">3</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2014">
+        <strong>2014</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+    <li>
+      <a href="#2013">
+        <strong>2013</strong> <span class="taxonomy__count">2</span>
+      </a>
+    </li>
+  
+</ul>
+
+
+
+  <section id="2018" class="taxonomy__section">
+    <h2 class="archive__subtitle">2018</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/product/product-pitfalls/" rel="permalink">Product Management Pitfalls
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">In my time as a product manager, I’ve found myself in a variety of situations that some of the best minds in product management have long warned about. I’ve ...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2016" class="taxonomy__section">
+    <h2 class="archive__subtitle">2016</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/product/dungeon-manager/" rel="permalink">The Dungeon Manager
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I love games, and I love product teams. I wrote some thoughts about how the two interplay over at Medium. Check it out:
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/teams/Managing-Growing-Pains/" rel="permalink">RailsConf 2016: Managing Growing Pains
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I had the pleasure of both attending and speaking at my first RailsConf this year. I gave a talk on how to orient and manage a product team when resources ar...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2015" class="taxonomy__section">
+    <h2 class="archive__subtitle">2015</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/natural-planning/" rel="permalink">Natural and Reactive Planning
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Learn to plan from your brain.
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/user-research/testing-ideas/" rel="permalink">Testing Your Way to a Better Idea
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">In product development, we care about ideas. Ideas create products and services. They connect us to other people. They lead to changing things. When we talk ...</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/non-profit/Non-Profit-Discovery/" rel="permalink">A Non-Profit Discovery Process
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I love non-profits. Nashville is full of amazing people, doing unbelievable things to help those around them and the world at large. These people are vision ...</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2014" class="taxonomy__section">
+    <h2 class="archive__subtitle">2014</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/weekly-review/" rel="permalink">The Weekly Review
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">The Weekly Review
+…or checking on your checklists
+
+</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/user-stories/" rel="permalink">Useful User Stories
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  14 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why Write User Stories?
+
+</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+  <section id="2013" class="taxonomy__section">
+    <h2 class="archive__subtitle">2013</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planning/pomodoro/" rel="permalink">How an Italian Tomato Fixed My Brain
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I’m a productivity nerd. I’ve tried more to-do applications and note-taking systems than I can remember, and have built up several ridiculous systems to help...</p>
+  </article>
+</div>
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/non-profit/Problem-with-Activism/" rel="permalink">The Problem with Activism
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">A while back, I wrote a blog post about the current state of volunteerism (I live in Tennessee, the Volunteer state, after all) and non-profits in general.
+
+</p>
+  </article>
+</div>
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/jonarnold"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/jon-arnold"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Jonathon Arnold. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
