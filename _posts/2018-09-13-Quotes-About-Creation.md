@@ -1,4 +1,4 @@
-—
+—--
 layout: posts
 title:  “Three Quotes About Creation”
 date:   2018-09-13 12:15:30
@@ -6,7 +6,7 @@ excerpt: Quotes I return to time and again when it comes to building products an
 header:
   overlay_image: “img/roadmap-bg.jpg”
 categories: product
-—
+—-- 
 
 Here's three quick quotes about the creative problem solving process. I find myself returning to these time and again when it comes to making things people use. 
 
